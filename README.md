@@ -3,7 +3,7 @@
 
 ![Screenshot](./screenshot.png 'Скриншотес')
 
-## Запустить сервер
+## Start server
 
 ```
 cd cmd/server

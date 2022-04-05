@@ -1,8 +1,7 @@
-# Tomb Mates
+# Darkest Dungeon
 
-Процесс написания игры можно посмотреть на [YouTube](https://www.youtube.com/watch?v=jMqC_VUEAgs). Версия кода на момент записи видео доступна в [этом коммите](https://github.com/jilio/tomb_mates/commit/a6823c442f40ba63f5ecd04db2814d47b5e6b150).
 
-![Скриншот](./screenshot.png 'Скриншотес')
+![Screenshot](./screenshot.png 'Скриншотес')
 
 ## Запустить сервер
 
@@ -11,22 +10,22 @@ cd cmd/server
 go run *go
 ```
 
-## Запустить игру
+## To run game
 
-###### Не будет работать без запущенного сервера
+###### It will not work without running server
 
 ```
 cd cmd/client
 go run main.go
 ```
 
-## Спрайты
+## Sprites
 
 [DungeonTilesetII](https://0x72.itch.io/dungeontileset-ii)
 
 ---
 
-## Команды
+## Commands
 
 ```
 protoc --go_out=. *.proto
